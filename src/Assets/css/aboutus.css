@@ -1,0 +1,132 @@
+/* Setting the margin, padding, align-items, border-radius, display, and flex-direction of the mainView
+class. */
+.mainView {
+  /* margin: 2%; */
+  padding: 8%;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* A media query. It is saying that if the screen is less than 800px, then do the following. */
+@media all and (max-width: 800px) {
+  .mainView {
+    flex-direction: column-reverse;
+    /* margin: 2%; */
+    padding: 3% 0% 3% 0%;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .imageDiv {
+    width: 50% !important;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.flex {
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  margin-left: 3%;
+}
+
+.top {
+  font-family: "GoogleSans-Bold";
+  text-transform: uppercase;
+  margin-top: 0.5%;
+}
+
+.smallLine {
+  width: 1%;
+  height: 2px;
+  margin-left: 0.5%;
+  border-radius: 2px;
+  background-color: #fbb604;
+}
+
+.line {
+  width: 12.2%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb604;
+}
+
+.gdsc {
+  margin-left: 1%;
+}
+
+.leftBox {
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.content {
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textbox {
+  width: 90%;
+  /* height: 40%; */
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.textbox h5 {
+  line-height: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .textbox {
+    width: 100%;
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+ .imageDiv {
+  margin-right: 5rem;
+ }
+}
+
+@media screen and (max-width: 450px) {
+  .leftBox {
+    width: 85%;
+    margin: 0 1rem;
+  }
+
+  .textbox h5 {
+    margin: 0 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+.imageDiv {
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  /* position: absolute;
+  top: 20%;
+  right: 4%; */
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}

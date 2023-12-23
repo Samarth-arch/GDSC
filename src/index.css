@@ -1,0 +1,26 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "GoogleSans-Bold";
+  src: local("GoogleSans"),
+    url("./fonts/GoogleSans/GoogleSans-Bold-v1.27.ttf") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GoogleSans-Light";
+  src: local("GoogleSans"),
+    url("./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf") format('woff');
+  font-weight: lighter;
+}
